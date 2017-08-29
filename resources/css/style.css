@@ -16,6 +16,7 @@ Orange color: #e67e22
 
 html,
 body {
+    
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -209,6 +210,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
+    z-index: -1;
+    position: fixed;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(img/backgroundno.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(img/backgroundno.jpg);
     background-size: cover;
