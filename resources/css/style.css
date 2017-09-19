@@ -13,7 +13,14 @@ Orange color: #e67e22
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'adlerregular';
+    src: url('./fonts/adler-webfont.woff2') format('woff2'),
+         url('./fonts/adler-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 html,
 body {
     
@@ -25,6 +32,7 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+
 
 .clearfix {zoom: 1;}
 .clearfix:after {
@@ -68,6 +76,7 @@ h1 {
     font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-family: 'adlerregular';
 }
 
 h2 {
@@ -76,6 +85,7 @@ h2 {
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
+    font-family: 'adlerregular';
 
 }
 
@@ -209,14 +219,19 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 
+
+
 header {
   
+
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(img/backgroundno.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(img/backgroundno.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
+     background-attachment: fixed;
+   
+
+     height: 100vh;
 }
 
 .hero-text-box {
@@ -279,6 +294,7 @@ header {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    font-family: 'adlerregular';
 }
 
 .nav-title {
@@ -336,6 +352,11 @@ header {
     padding: 16px 0;
     color: #555;
 }
+.sticky h1 {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
@@ -349,6 +370,7 @@ header {
 }
 .section-features li {
     list-style: none;
+    font-size: 1.2em;
 }
 
  .services {
@@ -482,6 +504,7 @@ header {
     text-align: center;
     font-size: 150%;
     margin-bottom: 5vh;
+ 
 }
 
 .sample-work a{
