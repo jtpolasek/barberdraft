@@ -13,10 +13,20 @@ Orange color: #e67e22
     padding: 0;
     box-sizing: border-box;
 }
+/*
 @font-face {
     font-family: 'adlerregular';
     src: url('./fonts/adler-webfont.woff2') format('woff2'),
          url('./fonts/adler-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+@font-face {
+    font-family: 'kingthings';
+    src: url('./fonts/kingthings_trypewriter_2-webfont.woff2') format('woff2'),
+         url('./fonts/kingthings_trypewriter_2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,7 +36,7 @@ body {
     
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'kingthings', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -76,17 +86,16 @@ h1 {
     font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
-    font-family: 'adlerregular';
+    font-family: 'kingthings';
 }
 
 h2 {
-    font-size: 180%;
+    font-size: 225%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
-    font-family: 'adlerregular';
-
+ 
 }
 
 .homecite  {
@@ -98,7 +107,7 @@ h2 {
     color: white;
     margin-top: 5vh;
     margin-bottom: 15vh;
-    display: block;
+    display: block; 
 
 }
 
@@ -106,6 +115,7 @@ h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
+/*
 
 h2:after {
     display: block;
@@ -116,6 +126,7 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+*/
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
@@ -256,6 +267,12 @@ header {
     
 }
 
+.shop-name{
+    font-size: 4.0em;
+    margin-bottom: 25vh;
+    text-align: center;
+}
+
 .address {
     display: block; 
     color: lightgrey;
@@ -268,7 +285,7 @@ header {
 
 
 
-/*
+
 
 
 .logo {
@@ -296,7 +313,7 @@ header {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    font-family: 'adlerregular';
+    font-family: 'kingthings';
 }
 
 .nav-title {
@@ -368,7 +385,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-features .long-copy {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .section-features li {
     list-style: none;
